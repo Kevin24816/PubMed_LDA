@@ -10,7 +10,7 @@ from helper_functions.wordcloud_generator import *
 from gensim import corpora, models
 from nltk.stem import WordNetLemmatizer
 
-from helper_functions.file import *
+from helper_functions.file_handler import *
 
 d = home
 ########################################################
@@ -226,7 +226,7 @@ def extract_texts(documents):
                   word not in stop.words and len(word) > 2] for document in documents]
         return texts
     def filter_abstracts(abstract_list, min_length=100):
-        """input list of abstracts in list of word form [[abstract], [abstract]]"""
+        """library list of abstracts in list of word form [[abstract], [abstract]]"""
         wprint("\tFiltering abstracts")
         keep_abstracts = []
         num_discarded = 0
