@@ -105,11 +105,11 @@
       <list>
         <option value="$PROJECT_DIR$/training.py" />
         <option value="$PROJECT_DIR$/display_topics.py" />
-        <option value="$PROJECT_DIR$/classify_documents.py" />
         <option value="$PROJECT_DIR$/experiment/readMe" />
         <option value="$PROJECT_DIR$/file_helper.py" />
         <option value="$PROJECT_DIR$/experiment/lda_experiment.py" />
         <option value="$PROJECT_DIR$/helper_functions/wordcloud_generator.py" />
+        <option value="$PROJECT_DIR$/classify_documents.py" />
       </list>
     </option>
   </component>
