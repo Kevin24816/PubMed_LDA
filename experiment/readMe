@@ -1,0 +1,6 @@
+The code in this directory is for experimenting with different model parameters to optimize the significance of the results.
+However, the significance of the corpus does not necessary mean that it is the most meaningful model and the ultimate
+decision for the best model should depend on whether the topics make sense.
+
+The significance score calculated is the model's log perplexity. The model is trained on 2/3 of the corpus and then
+tested on the other 1/3.
